@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Config and Update</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 52px;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffffff;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .config {
+      background: #2563eb;
+    }
+
+    .update {
+      background: #16a34a;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px;
+        border-radius: 14px;
+      }
+
+      .btn {
+        font-size: 16px;
+        min-height: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="btn config" href="https://spoo.me/ZYQfR4" target="_blank" rel="noopener noreferrer">Config</a>
+    <a class="btn update" href="https://spoo.me/nyL7Bl" target="_blank" rel="noopener noreferrer">update</a>
+  </div>
+</body>
+</html>
